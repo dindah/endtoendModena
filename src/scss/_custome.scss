@@ -1,0 +1,55 @@
+$warnabackground : white;
+$sizeimageheight : 70vh;
+$sizeimagewidth : 70vh;
+
+.background{
+    background-image: url('../asset/Rectangle\ 1.png');
+    background-size: 'cover';
+}
+.body{
+    background-color: $warnabackground;
+}
+
+.centerCard {
+    margin-left: 10em;
+    margin-right: 10em;
+    position: center;
+    height: 180vh;
+    width: 180vh;
+}
+
+.center {
+    font-size: 36px;
+}
+
+.logoModena{
+    background-image: url('../asset/Rectangle\ 3.png');
+    display: block;
+    margin-left: 12px;
+}
+
+.logoSuryo {
+    background-image: url('../asset/Rectangle\ 8.png');
+    border: "none";
+    box-shadow: "none";
+}
+
+.logoSatrio {
+    background-image: url('../asset/Rectangle\ 18.png');
+    border: "none";
+    box-shadow: "none";
+}
+
+.cardWhite {
+    background-color: $warnabackground;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerGrid {    
+    width: 90em;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 39em;
+}
